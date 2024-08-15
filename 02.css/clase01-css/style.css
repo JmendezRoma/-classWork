@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&family=Orbitron:wght@400..900&family=Pacifico&display=swap');
+
+/*Comentario en css*/
+@font-face {
+    font-family: "Pacifico";
+    src: url(./fonts/Pacifico/);
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "Orbitron";
+    src: url(./fonts/Orbitron/);
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "Jacquard 24 Charted";
+    src: url(./fonts/Jacquard_24_Charted/);
+    font-weight: bold;
+    font-style: bold;
+}
+
+/*dos de las tres maneras de cargar imagenes en el css, la primera de manera externa en la api GoogleFonts y la segunda descagando las fuenstas en nuestro proyecto, la otra es linkeando en el html*/
+
+
+
+
+/*selector universal de margenes de cada etiqueta , se pone siempre y al principio para resetar los margenes predeterminados del navegador*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: rgb(207, 207, 181);
+    margin-right: 10vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 10vh;
+    padding: 5vh;
+    border-radius: 10dvh;
+}
+
+body {
+    background-color: rgb(196, 64, 64);
+}
+
+h1 {
+    /*border-style: solid;
+    border-width: 10px;
+    border-color: blueviolet;*/
+    border: solid 5px rgb(61, 14, 105);
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font-size: 90px;
+    color: rgba(255, 0, 0, 0.712);
+    background-color: rgba(91, 51, 155, 0.637);
+    font-family: "Pacifico", cursive;
+    font-weight: 100;
+    font-style: normal;
+    border-radius: 5vh;
+    padding-left: 5vh;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+
+}
+
+p {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.text {
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-bottom: 2vh;
+}
+
+.firstText {
+
+    flex-wrap: wrap-reverse;
+}
+
+a {
+
+}
+
+#section1 {
+    border: solid 4px rgb(61, 14, 105);
+    width: 250px;
+    height: 200px;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+#section2 p {
+    color: brown;
+    padding-top: 2.5%;
+
+
+}
+
+div#links {
+    display: inline-block;
+    padding-top: 10vh;
+    padding-left:40dvh;
+    font-family: "Jacquard 24 Charted", system-ui;
+    font-weight:500;
+    font-style: normal;
+    font-size: 50px;
+}
+
+
+section#section3 .text {
+    background-image: url("./img/fondoSection.png");
+    border-radius: 3dvh;
+}

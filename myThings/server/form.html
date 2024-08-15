@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./app.js"></script>
+    <script defer src="./linked.js"></script>
+    <title>Clase 03 Fromularios</title>
+    <style>
+        input,textarea,select{
+            display: block;
+        }
+    </style>
+</head>
+<body >
+    <h1>FORMULARIO:</h1>
+    <!-- action  indica la página a la que se envían los datos del formulario// method indica el método mediante el que se transfieren las variables del formulario // name es un atributo  permite a un script acceder a su contenido// autofocus te permite especificar que una parte del formulario debe tener foco para ingresar información cuando se carga la página, a menos que el usuario lo cambie// escribir inp y te hace la estructura perfecta// required se implementa para que algo sea obligatorio -->
+
+    <form  id="contenedor" action=""method="">
+        <label for="userName">Introduce your name</label>
+        <input type="text" id="userName" placeholder="put in place" maxlength="12" name="name" autofocus>
+
+        <label for="email">your email</label>
+        <input type="text" id="email" maxlength="20" name="email" placeholder="@@@@@@">
+
+        <label for="password">your password</label>
+        <input type="password" name="password" id="password" required>
+
+        <label for="age">your age</label>
+        <input type="number" name="age" id="age">
+
+        <label for="birthdate
+        ">birthdate
+        </label>
+        <input type="date" name="birthdate
+        " id="birthdate
+        ">
+        
+        <label for="LoadFile">LoadFile</label>
+        <input type="file" name="LoadFile" id="LoadFile">
+
+        <label for="telephone">number telephone</label>
+        <input type="tel" name="telephone" id="telephone">
+
+        <label for="productfinder"> product finder
+        </label>
+        <input type="search" name="productfinder" id="productfinder">
+
+        <label for="comments">leave your comments
+        </label>
+        <textarea name="comments" id="comments" cols="21" rows="10"></textarea>
+
+        <label> Civil status
+            <input type="radio" name="civilStatus" value="s">soltero
+            <input type="radio" name="civilStatus" value="c">casado
+            <input type="radio" name="civilStatus"value="d">divorciado
+            <input type="radio" name="civilStatus"value="v">viudo
+        </label>
+
+    <label for="turno">seleciona tu turno</label>
+    <select name="turno" id="turno">
+        <option value="tm">mañana</option>
+        <option value="tt">tarde</option>
+        <option value="tn">noche</option>
+    </select>
+
+    <fieldset>
+        <legend>elige los lenguajes </legend>
+
+        <label for="html">html</label>
+        <input type="checkbox" name="html" id="html">
+
+        <label for="css">css</label>
+        <input type="checkbox" name="css" id="css">
+
+        <label for="javascript">javascript</label>
+        <input type="checkbox" name="javascript" id="javascript">
+    </fieldset>
+
+
+
+
+    <button  type="submit">enviar datos</button>
+    </form>
+</body>
+</html>

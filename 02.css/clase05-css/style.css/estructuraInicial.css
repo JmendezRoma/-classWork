@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: brown;
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 20%;
+    grid-template-rows: 15vh minmax(80vh,auto) 5vh;
+    grid-template-areas: 
+    
+        "header header"
+        "content aside"
+        "footer footer"
+
+    ;
+
+}
+
+
+header {
+    background-color: bisque;
+    grid-area: header;
+}
+
+section {
+    background-color: chocolate;
+    grid-area: content;
+}
+
+aside {
+    background-color: chartreuse;
+    grid-area: aside;
+}
+
+footer {
+    background-color: violet;
+    grid-area: footer;
+}

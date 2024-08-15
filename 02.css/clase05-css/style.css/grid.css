@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ====FUCIONES CSS ===
+
+ funcion que se usa con grid: repeat(x, y);
+x es cuantas veces se repite e y el tamaño de las celdas 
+
+
+===========MINIMO Y MAXIMO FUNCION=======
+
+funcion minmax(150px, auto);
+
+calc(100% - 80px);
+
+FUNCION: background-image: url(./..)
+
+  
+
+==========MEDIA QUERY===========
+
+@media (min-with: 700px) {
+    body{
+        background.color:red
+} } 
+    
+
+======SELECTORES DOBLES===========
+Se pueden combinar dos selectores=
+
+mediante la coma , 
+article.class, #pes.class p {
+
+}
+
+
+============MINIMOS MAXIMOS ANCHO==========
+
+min-width: 1rem;
+max-width:80px;
+
+
+aplica el mismo margin por los lados
+en los elementos en linea: 
+
+margin: 0 auto;
+
+
+
+ */
+
+#section {
+    background-color: grey;
+    width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    /* grid-template-columns: 50% 50% 25%; */
+    /* grid-template-columns: 150px 300px 300px 450px; */
+    /* grid-template-columns: 1fr 2fr 3fr 4fr;  */
+
+    
+    grid-template-columns: 150px  repeat(2, 300px) 1fr;
+    /* grid-template-rows: 250px 200px 150px; */
+    grid-template-rows: 250px 200px minmax(150px, auto);
+    gap: 5px;
+    
+}
+
+.articles {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article1 {
+    /* grid-column-start: 1;
+    grid-column-end: 5 ; */
+    grid-column: 1/5;
+}
+
+.article2 {
+    /* grid-row-start: 2 ;
+    grid-row-end: 5; */
+    grid-row: 2/5;
+}
+
+.article12 {
+    grid-column: -5/-1;
+}

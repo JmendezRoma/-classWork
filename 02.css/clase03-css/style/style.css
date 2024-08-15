@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p[lang] {
+    text-decoration: underline;
+}
+
+p[data-autor] {
+    font-style: italic;
+ 
+}
+
+p[lang="es"] {
+    color: brown;
+}
+
+/* Pseudo clases: */
+
+/*detecta si el sitio web no fue visitado por el usuario*/
+a:link {
+    color: violet;
+    font-size: 1.5rem;
+}
+
+/*si ya ha sido visitado*/
+
+a:visited {
+    color: yellow;
+}
+
+/*cuando se pasa el raton por encima*/
+a:hover {
+    color: yellowgreen;
+    border-radius: ;
+    font-size: 2rem;border: tomato solid 4px;
+    border-radius: 20px;
+    
+}
+
+/*cuando se mantiene click se activa*/
+a:active {
+    color:chocolate;
+
+}
+
+/*selector de hermano adyacente
+cuando verifiques que tiene el check activado + aplica la estetica a label*/
+
+
+label {
+    display: none;
+}
+
+form input:checked  + label {
+    text-decoration: line-through;
+    background-color: black;
+    color: cornflowerblue;
+    display: block;
+}
+
+ul {
+    padding: 20px;
+}
+
+
+/*seudo clases para acceder a cada uno de los hijos*/
+ul li:first-child {
+    color: violet;
+}
+
+ul li:nth-child(2) {
+    color: skyblue;
+}
+
+ul li:nth-child(3) {
+    color: #578d33;
+}
+
+ul li:last-child {
+    color: blue;
+}
+
+
+
+
+/*Pseudoelementos:  un elemento concreto de una etiqueta*/
+
+
+#parrafoPrueba::first-line {
+    font-weight: bolder;
+}
+
+#parrafoPrueba::first-letter {
+    font-size: 2.5rem;
+}
+
+/*para cambiar el color cuando se seleccionan las letras*/
+#parrafoPrueba::selection {
+    background-color: #578d33;
+    color: aliceblue;
+}
+
+#parrafoPrueba::before {
+    content: "estamos probando agregar texto antes del parrafo";
+    color: steelblue;
+}
+
+#parrafoPrueba::after {
+    content: "estamos probando agregar texto despues del parrafo";
+    color: steelblue;
+}
+
+
+/*COMBINACION DE SELECTORES*/
+
+form, #parrafoPrueba, .parrafoConClase {
+    background-color: #bbb82773;
+}
+
+/*HIJOS DIRECTOS*/
+ul >li {
+    background-color: #578d33;
+}
+
+/**/
+
+#texto3-section2 ~ p {
+    color: royalblue;
+}

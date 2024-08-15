@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* APLICANDO TRANSITION AL NAV */
+nav {
+    margin-top: 3%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
+    height: 5vh;
+}
+
+nav ul li:hover {
+    transform: scale(2);
+    transition-delay: 2s;
+}
+
+nav ul li{
+    transition: transform 3s;
+}
+
+nav ul li a {
+    text-decoration: none;
+
+}
+
+
+/* APLICANDO TRANSITION A LA SECTION */
+section {
+    background-color: teal;
+    width: 450px;
+    height: 150px;
+    display: grid;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 100px;
+    height: 150px;
+    
+}
+
+/*las transform y transition interactuan de manera separada aunque transform se asocie a hover*/
+
+section:hover .box {
+    transform: scale(1.5) rotate(180deg);
+}
+
+.box1 {
+    width: 100px;
+    height: 150px;
+    background-color: red;
+    transition: transform 1s;
+}
+
+.box2 {
+    width: 100px;
+    height: 150px;
+    background-color: green;
+    transition: transform 1.5s;
+}
+
+.box3 {
+    width: 100px;
+    height: 150px;
+    background-color: blue;
+    transition: transform 2s;
+}
+
+
+button {
+    background-color: black;
+    color: aquamarine;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 5s ease-in-out, color 2s;
+
+}
+
+button:hover {
+    transform: rotate(180deg);
+    background-color: brown;
+    font-size: large;
+    color: yellow;
+}
+
+
+/*
+TIEMPO DE TRANSICION::after
+- ease-in-out: mas lento al principio y mas lento al final
+
+- ease-in: mas lento al principio
+
+-ease-out: mas lento al final
+
+-linar: lineal
+
+*/
+

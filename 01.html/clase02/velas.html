@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garoe</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Garoe Natural</h1>
+        <h2>Velas aromáticas</h2>
+        
+        <nav>
+            <ul>
+                <li> <a href="./index.html"> Inicio </a> </li>
+                <li> <a href="./caracteristicasVelasAromaticas.html">caracteristicas de las velas aromaticas </a></li>
+                <li> <a href="./velas.html"> Velas </a> </li>
+                <li> <a href="./contacto.html"> Contacto </a> </li>
+            </ul>
+        </nav>
+               <!--Cosa que no sabia. Se pueden hacer atajos para que html te genere una estructura en el caso de arriba seria: nav>ul>li*3>a y te genera la estructura -->
+        <menu>
+            <!-- <menu> se usa por ejempo para el menu de de inicio de sesion-->
+            <ul>
+                <li><a href="">Iniciar Sesion</a></li>
+                <li><a href="">Crear Cuenta</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+    <section id ="sectionVelas">
+
+        <article>
+            <h2>vela de soja</h2>
+            <img class="imgArticulosCafe" src="./img/velaAromatica.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium odio nihil alias reiciendis harum nobis voluptatibus, eveniet illum assumenda fuga quas provident incidunt soluta earum impedit obcaecati. Voluptate, sequi nostrum!</p>
+
+            <div> <!--los div se usan para agrupaciones de codigo -->
+                <h3>Tipos de velas de soja disponible</h3>
+
+                <table>
+                    <caption>Variedades de velas de soja disponibles: </caption>
+
+                    <thead>
+                        <tr>
+                            <th>Tipos</th>
+                            <th>descripción</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>soja</td>
+                            <td>aromaticas</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>normal</td>
+                            <td>inolora</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>premiun</td>
+                            <td>grande</td>
+                            <td>70</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Precio Final</td>
+                            <td>140</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </article>
+        <article>
+            <h2>vela normal</h2>
+            <img class="imgArticulosCafe" src="./img/velaNormal.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium odio nihil alias reiciendis harum nobis voluptatibus, eveniet illum assumenda fuga quas provident incidunt soluta earum impedit obcaecati. Voluptate, sequi nostrum!</p>
+        </article>
+    </section>
+    
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados copyright 2024</p>
+    </footer>
+
+    </body>
+</html>

@@ -1,0 +1,64 @@
+[data-style]{
+    font-weight: bold;
+    background-color: rgb(143, 66, 81);
+    color: bisque;
+    font-size: x-large;
+}
+[header]{
+    color: bisque;
+}
+[href="//www.tesla.com/es_es"]{
+    font-family: monospace;
+    background-color: rgb(222, 224, 200);
+    font-size: xx-large;
+    color: rgb(18, 15, 235);
+}
+[href^="//www.toy"]{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    background-color: rgb(159, 175, 152);
+    color: rgb(165, 41, 41);
+}
+
+a:hover {
+    background-color: #e27806;
+}
+h1,h2{
+    background-color:sienna;
+    content: "$$";
+    display: block;
+    padding-top: 20%;
+    font-size: 80px;
+    padding-left: 250px;
+    font-style: italic;
+    font-weight: bold;
+    }
+body{
+    background-color: #333a91;
+}
+/*seudo clase*/
+a:visited{
+    color: rgb(49, 52, 218);
+    background-color: darkgreen;
+}
+/*seudo elemento*/
+h3::first-line{
+    font-size: 50px;
+}
+h3::after{
+    content: ">>";
+    color: chocolate;
+}
+h3::before{
+    content: "%";
+}
+
+body h1{
+    background-color: rgb(128, 128, 117);
+}
+main section p{
+    background-color: blueviolet;
+}
+main section.pClass{
+    background-color: #50a161;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Jonathan Mendez">
+    <meta name="description" content="venta de velas de soja">
+    <meta name="Keywords" content="velas, soja, artesania,">
+    <title>Garoe</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+            <h1>Garoe Natural</h1>
+            <h2>Velas aromáticas</h2>
+
+            <nav>
+                <ul>
+                    <li> <a href="./index.html"> Inicio </a> </li>
+                    <li> <a href="./caracteristicasVelasAromaticas.html">caracteristicas de las velas aromaticas </a></li>
+                    <li> <a href="./velas.html"> Velas </a> </li>
+                    <li> <a href="./contacto.html"> Contacto </a> </li>
+                </ul>
+            </nav>
+                <!--Cosa que no sabia. Se pueden hacer atajos para que html te genere una estructura en el caso de arriba seria: nav>ul>li*3>a y te genera la estructura -->
+            <menu>
+                <!-- <menu> se usa por ejempo para el menu de de inicio de sesion-->
+                <ul>
+                    <li><a href="">Iniciar Sesion</a></li>
+                    <li><a href="">Crear Cuenta</a></li>
+                </ul>
+            </menu>
+    </header>
+<main> <!--etiqueta para el contenido central de la pagina web-->
+    <section>
+        <img id="imgPortada" src="./img/velaPortada.png" alt="img vela fondo">
+    </section>
+
+    <section>
+        <!--strong y em ayudan al posicionamiento al contrario que i y b no -->
+        <h3>HISTORIA DE LAS VELAS</h3>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. <strong>Ipsa repudiandae animi error laborum. Rem distinctio amet quia iusto, aut fugiat inventore cum.</strong> Eaque ea quis molestias ipsum possimus pariatur aliquam!
+        Dolores nulla saepe quibusdam asperiores temporibus, sequi aperiam quos provident odio expedita <em> laboriosam esse explicabo molestias dignissimos ut, illum deleniti dolor tenetur veritatis. Excepturi natus obcaecati eius eveniet voluptatibus inventore.
+        Obcaecati dignissimos illo aliquam in hic architecto libero,</em> iure a voluptatum molestias eius cumque, explicabo consequuntur optio assumenda minima repudiandae possimus quis, <b>deleniti alias odio dolorum unde perferendis? Amet, incidunt.</b>
+        Sit eos, deserunt maiores quam voluptatibus delectus, repudiandae <i>omnis ratione natus, commodi dignissimos quasi quod laudantium incidunt tempore amet suscipit? Molestias explicabo error nulla modi, ullam quis provident unde aliquam.</i>
+        <span>Assumenda consequatur</span> tenetur sint quidem <span id="span_2">voluptatum hic ipsum</span> nobis minima, doloribus laborum debitis sapiente, aliquam at aspernatur ut cumque praesentium obcaecati voluptate? Odio corporis enim officia ea culpa nesciunt perspiciatis.</p>
+        <!--span no hace nada  en el html pero sirve para personalizar en css-->
+
+        <iframe id="iframeVideo" src="https://www.youtube.com/embed/Ot0eL12pd-c" title="¿Quién inventó las velas?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </section>
+
+    <section id ="sectionCaracteristicas">
+            <h3>caracteristicas de las velas aromaticas</h3>
+            <dl>
+                <dt>Origen</dt>
+                <dd>El origen de las velas aromaticas fue impulsado por la meditacion y la relajacion en el ambiente</dd>
+                <dt>Usos</dt>
+                <dd>el uso para la meditacion</dd>
+                <dt>Tipos</dt>
+                <dd>distintos tipos de velas: soja, naturales y distintos matriales organicos</dd>
+            </dl>
+    </section>
+
+    <section id ="sectionVelas">
+            <h3>Velas</h3>
+
+            <article>
+                <h4>vela de soja</h4>
+                <img class="imgArticulosvela" src="./img/velaAromatica.png" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium odio nihil alias reiciendis harum nobis voluptatibus, eveniet illum assumenda fuga quas provident incidunt soluta earum impedit obcaecati. Voluptate, sequi nostrum!</p>
+
+                <div> <!--los div se usan para agrupaciones de codigo -->
+                    <h5>Tipos de velas de soja disponible</h5>
+
+                    <table>
+                        <caption>Variedades de velas de soja disponibles:</caption>
+
+                        <thead>
+                            <tr>
+                                <th>Tipos</th>
+                                <th>descripción</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>soja</td>
+                                <td>aromaticas</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>normal</td>
+                                <td>inolora</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>premiun</td>
+                                <td>grande</td>
+                                <td>70</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>tr
+                            <tr>
+                                <td colspan="2">Precio Final</td>
+                                <td>140</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </article>
+            <article>
+                <h4>vela normal</h4>
+                <img id = "imgVelaNormal" src="./img/velaNormal.png" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium odio nihil alias reiciendis harum nobis voluptatibus, eveniet illum assumenda fuga quas provident incidunt soluta earum impedit obcaecati. Voluptate, sequi nostrum!</p>
+        </article>
+    </section>
+    <!--los <section> se usan para dividir tematicas u objetos en el sitio web, y dentro de los mismos si tenemos otros objetos dentro de las section usamos <article> -->
+
+        <section id ="sectionContacto">
+
+                <h3>Contacto</h3>
+
+                <p>Puedes contactaer con nosotros en <a href="mailto:garoe@hotmail.com">garoe@hotmail.com</a></p>
+
+                <p>o a traves de nuestro numero de contacto <a href="+34922562385">(+34)922 56 23 85</a></p>
+
+                <p> o en nuestra tienda en tenerife</p>
+
+                <figure>
+                    <img id="imgTiendaVelas" src="./img/tiendaVelas.jpg" alt="">
+                    <figcaption>calle Venezuela, numero 7, Santa Cruz de Tenerife</figcaption>
+            </figure>
+        </section>
+        <iframe id="iframeMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.6667207017313!2d-16.328336162116862!3d28.486222371868347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41cd95acaca3e1%3A0x849cbd1691b44335!2sTrans.%20Vallado%20Septima%2C%2027%2C%2038206%20Los%20Rodeos%2C%20Santa%20Cruz%20de%20Tenerife!5e0!3m2!1ses!2ses!4v1717094624102!5m2!1ses!2ses"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+
+        <footer>
+            <p>Todos los derechos reservados copyright 2024</p>
+        </footer>
+
+</body>
+</html>
+
+
+
+

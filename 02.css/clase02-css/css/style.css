@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "customFont";
+    src: url(../../clase01-css/fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#texto1 {
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    text-transform: none;
+}
+
+p#texto1 span {
+    color: rgb(22, 22, 8);
+    background-color: yellow;
+    font-size:large;
+    text-decoration: overline underline;
+}
+
+#texto2 {
+    line-height: 5;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    
+}
+
+section#section1 p#texto2 span {
+    color: black;
+    background-color: brown; 
+    text-transform: capitalize;
+    text-decoration: underline overline;
+}
+
+/*el id es mas relevante que una clase*/
+
+.texto1-4 {
+    background-color: gray;
+}
+
+/*UNIDADES DE MEDIDA em:
+
+em unidad para texto relativa al tamaño de fuente de su padre.
+1 em = 16px
+
+en este ejemplo el padre tiene 0.5 em (8 px) y el hijo tiene 2em (16px) por lo tanto seria el doble de lo que tiene el padre 
+*/
+
+#section2 {
+    font-size: 0.5em;
+    background-color: darkgoldenrod;
+}
+
+#textosection2 {
+    font-size: 2em;
+}
+
+/*UNIDAD DE MEDIDA rem (root em) ;
+
+1 rem=16px
+
+es relativo al elemento raiz
+
+*/
+
+#texto2-section2 {
+    font-size: 2rem;
+}
+
+/*UNIDAD DE MEDIDA %
+Es relativo a su contenedor en este caso al padre
+
+*/
+#section3 {
+    background-color: rgb(70, 60, 206);
+    width: 80%;
+}
+
+#texto-section3 {
+    background-color: chartreuse;
+    width: 70%;
+}
+
+#section3 a {
+    text-decoration: none;
+    color: aliceblue;
+    text-decoration: line-through red;
+    font-size: 2rem;
+}
+
+/* UNIDADES DE MEDIDA : vw - vh
+
+    ancho y alto de la ventana del navegador
+    se ajusta la pantalla y la barra de scroll
+*/
+
+#section4 p{
+    width: 50%;
+    height: 10vh;
+    background-color: rgb(9, 110, 110);
+}
+
+#section5 {
+    background-image: url(../img/ilustracion-gato-png-hd-8k-papel-pared-imagen-fotografica-archivo_1030895-17307.jpg);
+    width: 100%;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+header {
+    background-image: url(../img/ilustracion-gato-png-hd-8k-papel-pared-imagen-fotografica-archivo_1030895-17307.jpg);
+    width: 100%;
+    height: 47vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+header h1{
+    font-size: 4.2rem;
+    font-family:"customFont" ;
+    text-transform:uppercase;
+    display:flexbox;
+    position:absolute;
+    transform: translateX(1%) translateY(0.5vh);
+    font-style: italic;
+    ;
+}
+
+#spanh1-1 {
+    display: block;
+    text-decoration: underline;
+    letter-spacing: 20px;
+    padding-right: 50%;
+    transform: translateX(35%) translateY(10vh);
+}
+
+#spanh1-2 a {
+    display: block;
+    transform: translateX(50%) translateY(18vh);
+    margin-right: 5%;
+    margin-top: 5%;
+    text-decoration:none;
+    text-transform: unset;
+    
+}
+
+a {
+    outline:blue;
+    text-decoration: none;
+    padding: 2px 1px 0;
+   }
+   
+   a:link {
+    color: #8b2c0f;
+   }
+   
+   a:visited {
+    color: #b61724;
+   }
+   
+   a:focus {
+    border-bottom: 0.5px solid;
+    background: #849936;
+   }
+   
+   a:hover {
+    border-bottom: 0.5px solid;
+    background: #d1df12;
+
+   }
+   
+   a:active {
+    background: #265301;
+    color: #CDFEAA;
+   }
+
+
+

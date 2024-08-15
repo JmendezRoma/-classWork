@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*position relative parte desde el margen a derecha o izquierda
+*/
+
+#section1 {
+    background-color: brown;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: 900px;
+    top: 300px;
+}
+
+#section2 {
+    background-color: cadetblue;
+    width: 200px;
+    height: 100px;
+    position: relative;
+}
+
+#section2 article {
+    background-color: yellowgreen;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+
+#section3 {
+    background-color: blue;
+    width: 800px;
+    height: 200px;
+
+}
+
+#art1 {
+    background-color: darkgrey;
+    position: relative;
+    left: 350px;
+}
+
+#art2 {
+    background-color: aquamarine;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+
+#art3 {
+    background-color: blueviolet;
+}
+
+#art1, #art2, #art3 {
+    width: 200px;
+}

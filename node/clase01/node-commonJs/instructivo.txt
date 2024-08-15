@@ -1,0 +1,25 @@
+PASOS PARA CREAR UN PROYECTO DE NODEJS:
+
+estandares:
+
+comomnjs---> module.exports y el require
+
+ES6 --> export e import (*) """""NUEVA""""""    se necesita modificar habilitando el modulo en el package.json (agregar al principio del archivo un "type: "module")
+
+nota: si es una arrow function no se puede poner export default function sumar(v1, v2) {
+    return v1 + v2;
+}
+ no lo permite ES6 hay que hacer debajo un export default {
+    restar
+ }
+ 
+
+
+1- crear una carpeta que va a contener todos los archivos del proyecto 
+
+2- Crear un archivo package.json -->npm init -y (y lo crea automaticamente sin preguntar)
+
+
+3- Todo proyecto de node tiene un archivo por donde se inicia el programa (index, main, program..)
+
+4 - todo proyecto de node tiene una carpeta llamada src que contiene toda la lógica de la app.

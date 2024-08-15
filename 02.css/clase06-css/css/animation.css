@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#section1 {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    animation: changeSizeColor infinite;
+}
+
+@keyframes changeSizeColor {
+    0% {
+        background-color: coral;
+    }
+
+
+    50% {
+        width: 150px;
+        height: 150px;
+        background-color: yellowgreen;
+        border-radius: 50%;
+    }
+
+
+    100% {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+    }
+}
+
+#section1 {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    animation:changeSizeColor 8s infinite;
+}
+
+
+/*OTRA MANERA DE MANEJAR LOS ESTADOS DE INICIO A FIN*/
+
+
+@keyframes changeColor {
+    
+    from {
+        background-color: darkolivegreen;
+
+    }
+
+    to {
+        background-color: yellowgreen;
+    }
+    
+}
+
+#section2 {
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    animation: changeColor 2s infinite;
+}
+
+/*ANIMACION SECTION 3*/
+
+@keyframes horizontalDisplacement {
+     0% {
+        left: calc(30vw + 80px);
+     }
+
+     50% {
+        left: 50%;
+     }
+
+     100% {
+        left: calc(80vw - 80px);
+     }
+
+    
+}
+
+#section3 {
+    background-color: blueviolet;
+    width: 80px;
+    height: 50px;
+    position: relative;
+    animation: horizontalDisplacement 3s infinite linear alternate;
+}
+
+
+/*
+APLICANDO ANIMACION A LA SECCION 4
+*/
+
+@keyframes latido {
+
+    0% {
+        transform: scale(1);
+     }
+
+     50% {
+        transform: scale(2);
+     }
+
+     100% {
+        transform: scale(1);
+     }
+    
+}
+
+#sectionHearth {
+    font-size: 5rem;
+    position: fixed;
+    animation: latido 2s infinite;
+    left: 50vw;
+}
+
+
+
+
+/*opacity*/
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+#section4 {
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    margin-top: 100px;
+    animation: opacity infinite 5s;
+}
+
+
+

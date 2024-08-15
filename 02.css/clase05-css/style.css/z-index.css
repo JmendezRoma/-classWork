@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: solid 2px;
+    margin: 10px; 
+    position: absolute;
+}
+
+.red-box {
+    background-color: red;
+    z-index: 2;
+    top: 80px;
+}
+
+.blue-box {
+    background-color: blue;
+    z-index: 3;
+}
+
+.green-box {
+    background-color: green;
+    z-index: 2;
+    left: 50px;
+    top: 50px;
+}
+

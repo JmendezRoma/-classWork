@@ -1,0 +1,6 @@
+{
+    "nombreUsuario": "María",
+    "apellidoUsuario": "Rodríguez",
+    "edad": 40,
+    "nacionalidad": ["España", "Uruguay"]
+}

@@ -1,0 +1,179 @@
+<mxfile host="app.diagrams.net" modified="2024-07-22T19:11:24.188Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="RKQ_WBfQNb1eHusr1u3c" version="24.5.3" type="google">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eCG_tnwl1CViN85THhdX-1" value="&lt;div&gt;Clientes&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-1040" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-2" value="Ciudades" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="605" y="-1040" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-4" value="id" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-1090" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.42;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eCG_tnwl1CViN85THhdX-4" target="eCG_tnwl1CViN85THhdX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-8" value="id_ciudad" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-970" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eCG_tnwl1CViN85THhdX-8" target="eCG_tnwl1CViN85THhdX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCG_tnwl1CViN85THhdX-10" target="eCG_tnwl1CViN85THhdX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-10" value="id" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="655" y="-1090" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCG_tnwl1CViN85THhdX-14" target="eCG_tnwl1CViN85THhdX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-14" value="id_provincia" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="665" y="-950" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-17" value="Provincias" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-870" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.37;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eCG_tnwl1CViN85THhdX-17" target="eCG_tnwl1CViN85THhdX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-19" value="id" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="575" y="-820" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-20" value="Pertenece" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-21" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eCG_tnwl1CViN85THhdX-20">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="410" y="-880" as="sourcePoint" />
+            <mxPoint x="600" y="-1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-22" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eCG_tnwl1CViN85THhdX-20" target="eCG_tnwl1CViN85THhdX-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="400" y="-880" as="sourcePoint" />
+            <mxPoint x="500" y="-980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-25" value="Direcciones" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-860" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-26" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=0.86;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eCG_tnwl1CViN85THhdX-25" target="eCG_tnwl1CViN85THhdX-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="140" y="-840" as="sourcePoint" />
+            <mxPoint x="140" y="-990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="125" y="-1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-28" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0.65;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="660" y="-1000" as="sourcePoint" />
+            <mxPoint x="30" y="-842" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="-860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-29" value="Ventas" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-830" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-30" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="eCG_tnwl1CViN85THhdX-1" target="eCG_tnwl1CViN85THhdX-29">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="320" y="-880" as="sourcePoint" />
+            <mxPoint x="420" y="-980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-32" value="&lt;div&gt;Cuando tenemos una relación de muchos a muchos, Se debe salvar.&lt;/div&gt;&lt;div&gt;Se crea una tabla intermedia que relacione a las dos.&lt;/div&gt;&lt;div&gt;Ej: clientes con ventas, un cliente muchas compras pero muchas ventas a muchos clientes.&lt;/div&gt;&lt;div&gt;Se crea una tabla ClientesXVentas, o Clientes_Ventas y se ponen los id (PK) de cada tabla relacionada&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-720" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-33" value="Clientes" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-570" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-34" value="&lt;div&gt;Ventas&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-570" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-36" value="Clientes_Ventas" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-37" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCG_tnwl1CViN85THhdX-33" target="eCG_tnwl1CViN85THhdX-43">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="50" y="-410" as="sourcePoint" />
+            <mxPoint x="170" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-38" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.37;exitY=1.025;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="eCG_tnwl1CViN85THhdX-34" target="eCG_tnwl1CViN85THhdX-36">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="365" y="-510" as="sourcePoint" />
+            <mxPoint x="485" y="-410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-39" value="" style="shape=table;startSize=0;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;resizeLast=1;strokeColor=none;fillColor=none;collapsible=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-400" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-40" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="eCG_tnwl1CViN85THhdX-39">
+          <mxGeometry width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-41" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="eCG_tnwl1CViN85THhdX-40">
+          <mxGeometry width="30" height="60" as="geometry">
+            <mxRectangle width="30" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-42" value="id&#xa;id_cliente&#xa;id_venta&#xa;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="eCG_tnwl1CViN85THhdX-40">
+          <mxGeometry x="30" width="150" height="60" as="geometry">
+            <mxRectangle width="150" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-43" value="clientesVentas" style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-340" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-44" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.82;exitY=1.05;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="eCG_tnwl1CViN85THhdX-33" target="eCG_tnwl1CViN85THhdX-36">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="120" y="-520" as="sourcePoint" />
+            <mxPoint x="240" y="-420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-45" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.62;exitY=1.05;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="eCG_tnwl1CViN85THhdX-34" target="eCG_tnwl1CViN85THhdX-43">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="510" y="-400" as="sourcePoint" />
+            <mxPoint x="403" y="-301" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-46" value="Clientes" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-47" value="Ciudades" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-50" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCG_tnwl1CViN85THhdX-47" target="eCG_tnwl1CViN85THhdX-46">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="260" y="-120" as="sourcePoint" />
+            <mxPoint x="360" y="-220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-51" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="eCG_tnwl1CViN85THhdX-46" target="eCG_tnwl1CViN85THhdX-47">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="260" y="-120" as="sourcePoint" />
+            <mxPoint x="540" y="-120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-56" value="1:1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-57" value="1:1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-58" value="1:1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-88" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eCG_tnwl1CViN85THhdX-59" value="1:many" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="246" y="-80" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

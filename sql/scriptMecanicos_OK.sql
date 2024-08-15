@@ -1,0 +1,27 @@
+DROP DATABASE IF EXISTS mecanicos;
+CREATE DATABASE IF NOT EXISTS mecanicos;
+USE mecanicos;
+
+
+CREATE TABLE mecanicos(
+	nro_empleado INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+	nombre VARCHAR(100) NOT NULL,
+    direccion VARCHAR(100) DEFAULT("sin direccion"),
+    telefono VARCHAR(100),
+    nro_interno INT UNSIGNED NOT NULL,
+    isDeleted BOOL DEFAULT FALSE,
+    createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+    modifiedAt DATETIME ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE autobus(
+	nro_interno INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    marca VARCHAR(100) NOT NULL,
+    modelo INT UNSIGNED,
+    patente VARCHAR(20) NOT NULL,
+    isDeleted BOOL DEFAULT FALSE,
+    createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+    modifiedAt DATETIME ON UPDATE CURRENT_TIMESTAMP
+);
+
+ALTER TABLE mecanicos ADD FOREIGN KEY (nro_interno) REFERENCES autobus(nro_interno);

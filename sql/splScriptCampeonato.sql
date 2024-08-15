@@ -1,0 +1,51 @@
+DROP DATABASE  IF EXISTS championship;
+
+CREATE DATABASE championship;
+USE championship;
+
+CREATE TABLE  Equipos (
+	id_equipo INT UNSIGNED PRIMARY KEY  AUTO_INCREMENT,
+    patrocinador VARCHAR(50) ,
+    nombre VARCHAR(50) NOT NULL,
+    color_1camista VARCHAR(10) NOT NULL,
+    color_2camista VARCHAR(10),
+    categoria ENUM('sub-21', 'senior') NOT NULL,
+	createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+    modifiedAt DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE  Jugadores (
+	id_jugador INT UNSIGNED PRIMARY KEY  AUTO_INCREMENT,
+     edad INT UNSIGNED,
+    nombre VARCHAR(30) NOT NULL,
+    apellidos VARCHAR(30) NOT NULL,
+    direccion VARCHAR(30),
+    telefono VARCHAR (30),
+    id_equipo INT UNSIGNED,
+    FOREIGN KEY (id_equipo) REFERENCES Equipos(id_equipo),
+	createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+    modifiedAt DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE  Partidos (
+	id_partido INT UNSIGNED PRIMARY KEY  AUTO_INCREMENT,
+     incidencias VARCHAR(100) ,
+    arbitro VARCHAR(50) NOT NULL,
+    campo VARCHAR(30) NOT NULL,
+    resultado VARCHAR(10) NOT NULL,
+	createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+    modifiedAt DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE  PartidosJugados(
+	id_participacion INT UNSIGNED PRIMARY KEY  AUTO_INCREMENT,
+     id_partido INT UNSIGNED NOT NULL,
+	id_equipo  INT UNSIGNED NOT NULL,
+	id_jugador INT UNSIGNED NOT NULL,
+	FOREIGN KEY (id_partido) REFERENCES Partidos(id_partido),
+	FOREIGN KEY (id_equipo) REFERENCES Equipos(id_equipo),
+	FOREIGN KEY (id_jugador) REFERENCES Jugadores(id_jugador),
+	createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+    modifiedAt DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+	
